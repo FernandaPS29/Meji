@@ -1,28 +1,24 @@
 @font-face {
-   font-family: 'Arial Narrow';
-   src: url(../assets/fonts/Arial\ Narrow.ttf);
-}
-
-@font-face {
-    font-family: 'Arial Rounded MT Bold';
-    src: url(../assets/fonts/arial-rounded-mt-bold.ttf);
+    font-family: 'Baskerville Old Face';
+    src: url(../assets/fonts/baskerville-old-face.ttf);
  }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Arial Rounded MT Bold';
+    font-family: 'Baskerville Old Face';
     scroll-behavior: smooth;
+    font-weight: 900;
 }
 
 body {
-    background: #f7f2f2;
+    background: #f7f2f1;
 }
 
 p {
-    font-weight: 300;
-    color: #494849;
+    font-weight: 500;
+    color: #504e4f;
 }
 
 .banner {
@@ -43,15 +39,15 @@ p {
 }
 
 .banner .content h2 {
-    font-size: 5em;
-    color: #f7f2f2;
+    font-size: 7em;
+    color: #f7f2f1;
 }
 .banner .content p {
-    font-size: 1.2em;
-    color: #f7f2f2;
+    font-size: 2em;
+    color: #f7f2f1;
 }
 .banner .content p a {
-    color: #ffab40;
+    color: #f1ba64;
 }
 .btnFacil:hover {
     letter-spacing: 9px;
@@ -64,8 +60,8 @@ p {
 }
 .btn {
     font-size: 2em;
-    color: #f7f2f2;
-    background: #ffab40;
+    color: #f7f2f1;
+    background: #f1ba64;
     display: inline-block;
     padding: 10px 30px;
     margin-top: 20px;
@@ -75,8 +71,8 @@ p {
 }
 .btn2 {
     font-size: 2em;
-    color: #f7f2f2;
-    background: #ffab40;
+    color: #f7f2f1;
+    background: #f1ba64;
     display: inline-block;
     padding: 10px 30px;
     margin-top: 20px;
@@ -94,7 +90,7 @@ p {
     text-decoration: none;
 }
 .linkedin h4{
-    color: #ffab40;
+    color: #f1ba64;
 }
 header {
     position: fixed;
@@ -109,25 +105,25 @@ header {
     transition: 0.5s;
  }
 header.sticky {
-    background: #bbb1d8;
+    background: #5f5d7e;
     padding: 10px 100px;
     box-shadow: 0 5px 20px rgba (0,0,0,0.05);
 }
 
 
 header .logo {
-    color: #494849;
-    font-weight: 700;
+    color: #504e4f;
+    font-weight: 900;
     font-size: 2em;
     text-decoration: none;
 }
 
 header.sticky .logo {
-    color: #f7f2f2;
+    color: #f7f2f1;
 }
 
 header .logo span {
-    color: #ffab40;
+    color: #f1ba64;
 }
 header .navigation {
     position:relative;
@@ -141,16 +137,16 @@ header .navigation li {
 
 header .navigation li a {
     text-decoration: none;
-    color: #494849;
-    font-weight: 300;
+    color: #504e4f;
+    font-weight: 500;
 }
 
 header.sticky .navigation li a {
-    color:#f7f2f2;
+    color:#f7f2f1;
 }
 
 header .navigation li a:hover {
-    color:#ffab40;
+    color:#f1ba64;
 }
 
 section {
@@ -170,19 +166,19 @@ section {
 }
 
 .titleText {
-    color: #494849;
+    color: #504e4f;
     font-size: 2em;
-    font-weight: 300;
+    font-weight: 900;
 }
 
 .titleText span {
-    color: #ffab40;
+    color: #f1ba64;
     font-weight: 700; 
-    font-size: 1.5em;
+    font-size: 2em;
 
 }
 .pink {
-    color: #ffab40;
+    color: #f1ba64;
 }
 .row .col50 .imgBx {
     position: relative;
@@ -243,8 +239,8 @@ section {
 }
 
 .menu .content .box .text h3{
-    font-weight: 400;
-    color: #494849;
+    font-weight: 600;
+    color: #504e4f;
 }
 
 .expert .content {
@@ -300,8 +296,8 @@ section {
 }
 
 .expert .content .box .text h3 {
-    font-weight: 400;
-    color:#494849;
+    font-weight: 600;
+    color:#504e4f;
 }
 
 .testimonials {
@@ -311,7 +307,7 @@ section {
 
 .white .titleText,
 .white p {
-    color: #f7f2f2;
+    color: #f7f2f1;
 }
 
 .testimonials .content {
@@ -326,7 +322,7 @@ section {
     width: 340px;
     margin: 20px;
     padding: 40px;
-    background: #f7f2f2;
+    background: #f7f2f1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -356,16 +352,16 @@ section {
 }
 
 .testimonials .content .box .text p {
-    color: #494849;
+    color: #504e4f;
     font-style: italic;
 }
 
 .testimonials .content .box .text h3 {
     margin-top: 20px;
-    color: #494849;
-    font-size: 1em;
-    color: #ffab40;
-    font-weight: 600;
+    color: #504e4f;
+    font-size: 2em;
+    color: #f1ba64;
+    font-weight: 700;
 }
 
 .contact {
@@ -375,17 +371,17 @@ section {
 
 .contactForm {
     padding: 75px 50px;
-    background: #f7f2f2;
+    background: #f7f2f1;
     box-shadow: 0 15px 50px rgba(0,0,0,0.1);
     max-width: 500px;
     margin-top: 50px;
 }
 
 .contactForm h3 {
-    color:#494849;
-    font-size: 1.2em;
+    color:#504e4f;
+    font-size: 2em;
     margin-bottom: 20px;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 .contactForm .inputBox {
@@ -397,26 +393,26 @@ section {
 .contactForm .inputBox input,
 .contactForm .inputBox textarea {
     width: 100%;
-    border: 1px solid #494849;
+    border: 1px solid #504e4f;
     padding: 10px;
-    color: #494849;
+    color: #504e4f;
     outline: none;
-    font-size: 16px;
-    font-weight: 300;
+    font-size: 20px;
+    font-weight: 600;
     resize: none;
 }
 
 .contactForm .inputBox input[type="submit"]
 {
     font-size: 1em;
-    color: #f7f2f2;
-    background: #ffab40;
+    color: #f7f2f1;
+    background: #f1ba64;
     display: inline-block;
     text-decoration: none;
     letter-spacing: 2px;
     transition: 0.5s;
     max-width: 100px;
-    font-weight: 500;
+    font-weight: 700;
     border: none;
     cursor: pointer;
 }
@@ -424,16 +420,16 @@ section {
 .copyrightText {
     padding: 8px 40px;
     text-align: center;
-    background: #bbb1d8;
+    background: #5f5d7e;
 }
 
 .copyrightText p {
-    color: #494849;
+    color: #f7f2f1;
 }
 
 .copyrightText a {
-    color:#f7f2f2;
-    font-weight: 500;
+    color:#f1ba64;
+    font-weight: 700;
     text-decoration: none;
 }
 
@@ -458,14 +454,14 @@ section {
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        background: #f7f2f2;
+        background: #f7f2f1;
     }
     header .navigation li {
         margin-left: 0;
     }
     header .navigation li a {
-        color: #494849;
-        font-size: 1.6em;
+        color: #504e4f;
+        font-size: 2em;
     }
     .menuToggle
     {
@@ -496,7 +492,7 @@ section {
     }
     .banner .content h2 {
         font-size: 3em;
-        color:#f7f2f2;
+        color:#f7f2f1;
     }
     .row {
         flex-direction: column;
@@ -522,10 +518,10 @@ section {
         text-align: center;
     }
     .titleText {
-        font-size: 1.8em;
+        font-size: 2em;
         line-height: 1.5em;
         margin-bottom: 15px;
-        font-weight: 300;
+        font-weight: 600;
     }
     .testimonials .content .box {
         margin: 10px;
@@ -540,7 +536,7 @@ section {
 @media (max-width: 480px) {
     .banner .content h2 {
         font-size: 2.2em;
-        color: #f7f2f2
+        color: #f7f2f1
     }
     .row .col50 .imgBx img {
         height: 80%;
