@@ -109,7 +109,13 @@ header.sticky {
     padding: 10px 100px;
     box-shadow: 0 5px 20px rgba (0,0,0,0.05);
 }
-
+.contentscreens {
+    display: flex;
+        flex-wrap: wrap; 
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+}
 
 header .logo {
     color: #f7f2f1;
@@ -241,6 +247,62 @@ section {
 .menu .content .box .text h3{
     font-weight: 600;
     color: #504e4f;
+}
+.ods .content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+.ods .content .box {
+    width: 250px;
+    margin: 15px;
+}
+
+.ods .content .box .imgBx {
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+.ods .content .box .imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ods .content .box2 {
+    width: 150px;
+    margin: 15px;
+}
+
+.ods .content .box2 .imgBx2 {
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+
+.ods .content .box2 .imgBx2 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ods .content .box .text {
+    padding: 15px 0 5px;
+}
+
+.ods .content .box .text h3 {
+    font-weight: 600;
+    color:#504e4f;
 }
 
 .expert .content {

@@ -7,6 +7,7 @@
     <title>meji</title>
     <link rel="shortcut icon" href="assets/img/icone_1.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
 </head>
 <body>
     
@@ -17,6 +18,7 @@
             <li><a href="#banner" onclick="toggleMenu()">Início</a></li>
             <li><a href="#about" onclick="toggleMenu()">Sobre</a></li>
             <li><a href="#menu" onclick="toggleMenu()">Vídeo</a></li>
+            <li><a href="#screens" onclick="toggleMenu()">Telas</a></li>
             <li><a href="#expert" onclick="toggleMenu()">Time</a></li>
         </ul>
     </header>
@@ -59,14 +61,11 @@
                     <img src="assets/img/pitch.png" alt="" width="400px">
             </a>
         </div>
-        <div class="title">
-            <a href="download/Meji.pdf" class="btn2" download="Meji">Apresentação em PDF</a>
-        </div>
     </section>
 
-    <section class="expert" id="expert">
+    <section class="ods" id="ods">
         <div class="title">
-            <h2 class="titleText"> Objetivos do Desenvolvimento Sustentável </h2>
+            <h2 class="titleText"> <span>O</span>bjetivos do <span>D</span>esenvolvimento <span>S</span>ustentável </h2>
             <p><span style="color:#FFD740;">ODS</span></p>
         </div>
         <div class="content">
@@ -110,6 +109,14 @@
                     <h4 style="color: #504e4f;">Cidades e comunidades sustentáveis</h4>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <section class="screens" id="screens">
+        <div class="title">
+            <h2 class="titleText"> O <span>P</span>rotótipo</h2>
+            <br><br>
+            <img src="assets/img/telas.png" alt="" width="1200px">
         </div>
     </section>
 
@@ -170,6 +177,7 @@
         <p>Desenvolvido orgulhosamente em 3 dias no <a href="https://www.sympla.com.br/hackathon-vitual-experience__1156824" target="_blank">Hackathon Virtual Experience.</a> Organizado pelo <a href="https://www.grupomulheresdobrasil.org.br/" target="_blank"> Grupo Mulheres do Brasil.</a> <br> Todos os direitos reservados. </p>
     </div>
 
+    <script src="assets/js/main.js"></script>
     <script type="text/javascript">
         window.addEventListener ('scroll', function(){
             const header = document.querySelector('header');
