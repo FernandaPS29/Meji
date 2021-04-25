@@ -47,7 +47,7 @@ p {
     color: #f7f2f1;
 }
 .banner .content p a {
-    color: #f1ba64;
+    color: #FFD740;
 }
 .btnFacil:hover {
     letter-spacing: 9px;
@@ -61,7 +61,7 @@ p {
 .btn {
     font-size: 2em;
     color: #f7f2f1;
-    background: #f1ba64;
+    background: #FFD740;
     display: inline-block;
     padding: 10px 30px;
     margin-top: 20px;
@@ -72,7 +72,7 @@ p {
 .btn2 {
     font-size: 2em;
     color: #f7f2f1;
-    background: #f1ba64;
+    background: #FFD740;
     display: inline-block;
     padding: 10px 30px;
     margin-top: 20px;
@@ -90,7 +90,7 @@ p {
     text-decoration: none;
 }
 .linkedin h4{
-    color: #f1ba64;
+    color: #3F0648;
 }
 header {
     position: fixed;
@@ -105,14 +105,14 @@ header {
     transition: 0.5s;
  }
 header.sticky {
-    background: #5f5d7e;
+    background: #3F0648;
     padding: 10px 100px;
     box-shadow: 0 5px 20px rgba (0,0,0,0.05);
 }
 
 
 header .logo {
-    color: #504e4f;
+    color: #f7f2f1;
     font-weight: 900;
     font-size: 2em;
     text-decoration: none;
@@ -123,7 +123,7 @@ header.sticky .logo {
 }
 
 header .logo span {
-    color: #f1ba64;
+    color: #FFD740;
 }
 header .navigation {
     position:relative;
@@ -137,7 +137,7 @@ header .navigation li {
 
 header .navigation li a {
     text-decoration: none;
-    color: #504e4f;
+    color: #f7f2f1;
     font-weight: 500;
 }
 
@@ -146,7 +146,7 @@ header.sticky .navigation li a {
 }
 
 header .navigation li a:hover {
-    color:#f1ba64;
+    color:#FFD740;
 }
 
 section {
@@ -172,13 +172,13 @@ section {
 }
 
 .titleText span {
-    color: #f1ba64;
+    color: #FFD740;
     font-weight: 700; 
     font-size: 2em;
 
 }
 .pink {
-    color: #f1ba64;
+    color: #FFD740;
 }
 .row .col50 .imgBx {
     position: relative;
@@ -360,7 +360,7 @@ section {
     margin-top: 20px;
     color: #504e4f;
     font-size: 2em;
-    color: #f1ba64;
+    color: #FFD740;
     font-weight: 700;
 }
 
@@ -406,7 +406,7 @@ section {
 {
     font-size: 1em;
     color: #f7f2f1;
-    background: #f1ba64;
+    background: #FFD740;
     display: inline-block;
     text-decoration: none;
     letter-spacing: 2px;
@@ -420,7 +420,7 @@ section {
 .copyrightText {
     padding: 8px 40px;
     text-align: center;
-    background: #5f5d7e;
+    background: #3F0648;
 }
 
 .copyrightText p {
@@ -428,7 +428,7 @@ section {
 }
 
 .copyrightText a {
-    color:#f1ba64;
+    color:#FFD740;
     font-weight: 700;
     text-decoration: none;
 }
