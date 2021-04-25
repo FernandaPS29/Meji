@@ -14,6 +14,9 @@ Clique no logo e visite nosso site:
 * Seus serviços e produtos divulgados para mulheres do Brasil inteiro!
 * Se o **Grupo Mulheres do Brasil** confia, você também pode confiar!
 
+### Fluxograma de funcionamento
+[![](https://github.com/FernandaPS29/Meji/blob/main/imagens_readme/fluxograma_meji.png)]
+
 ### Desenvolvimento
 O desenvolvimento do site foi feito utilizando as tecnologias **HTML**, **CSS** e **JavaScript**.
 O desenvolvimento do app foi feito na linguagem de programação **Dart** com **Flutter**, trata-se de uma plataforma open source para programação para dispositivos móveis. 
