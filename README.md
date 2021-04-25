@@ -22,7 +22,7 @@ O desenvolvimento do app foi feito na linguagem de programação **Dart** com **
 [![Watch the video](https://github.com/FernandaPS29/Meji/blob/main/imagens_readme/pitch1.png)](https://youtu.be/)
 
 ### Download do aplicativo
-[![](https://github.com/FernandaPS29/Meji/blob/main/imagens_readme/download1.png)](https://github.com/FernandaPS29/Meji/mobile_meji/meji.apk?raw=true)
+[![](https://github.com/FernandaPS29/Meji/blob/main/imagens_readme/download1.png)](https://github.com/FernandaPS29/Meji/blob/main/mobile_meji/meji.apk?raw=true)
 
 ### Time
 
