@@ -22,7 +22,7 @@ O desenvolvimento do site foi feito utilizando as tecnologias **HTML**, **CSS** 
 O desenvolvimento do app foi feito na linguagem de programação **Dart** com **Flutter**, trata-se de uma plataforma open source para programação para dispositivos móveis. 
 
 ### Vídeo Pitch
-[![Watch the video](https://github.com/FernandaPS29/Meji/blob/main/imagens_readme/pitch2.png)](https://youtu.be/)
+[![Watch the video](https://github.com/FernandaPS29/Meji/blob/main/imagens_readme/pitch2.png)](https://youtu.be/vEdDCBPMyg0)
 
 ### Download do aplicativo
 [![](https://github.com/FernandaPS29/Meji/blob/main/imagens_readme/download2.png)](https://github.com/FernandaPS29/Meji/blob/main/mobile_meji/meji.apk?raw=true)
